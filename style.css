@@ -127,10 +127,11 @@ section{
     border-top: 5px solid #e44d26;
     background-color: RGB(228, 77, 38, 0.15);
 }
-.photo{
-    max-width: 100%;
+.left{
+    width: 100%;
     height:auto;
     object-fit: cover;
-    display: block;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
